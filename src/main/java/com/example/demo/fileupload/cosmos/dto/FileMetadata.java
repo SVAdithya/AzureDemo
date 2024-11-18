@@ -3,7 +3,7 @@ package com.example.demo.fileupload.cosmos.dto;
 import com.azure.spring.data.cosmos.core.mapping.Container;
 import org.springframework.data.annotation.Id;
 
-@Container(containerName = "files")
+//@Container(containerName = "files")
 public record FileMetadata(
 		String fileName,
 		@Id

@@ -1,3 +1,4 @@
+/*
 package com.example.demo.fileupload.service;
 
 import lombok.AllArgsConstructor;
@@ -38,14 +39,16 @@ public class FileServiceImpl {
 		List<String> s = blobStorageService.listBlobs();
 		s.add(fileMetadataService.getFileMetadataById(id).toString());
 		return s;
-		/* return new FileMetaResponse(
+		*/
+/* return new FileMetaResponse(
 				fileMetadata.fileName(),
 				fileMetadata.fileType(),
 				fileMetadata.fileSize(),
 				fileMetadata.fileId(),
 				fileMetadata.isArchived(),
 				fileMetadata.isDeleted()
-		); */
+		); *//*
+
 		//return null;
 	}
 
@@ -72,3 +75,4 @@ public class FileServiceImpl {
 		return null;
 	}
 }
+*/

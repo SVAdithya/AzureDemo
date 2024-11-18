@@ -1,3 +1,4 @@
+/*
 package com.example.demo.fileupload.cosmos.config;
 
 import com.azure.core.credential.AzureKeyCredential;
@@ -109,3 +110,4 @@ public class CosmosDBConfig extends AbstractCosmosConfiguration {
 	}
 
 }
+*/

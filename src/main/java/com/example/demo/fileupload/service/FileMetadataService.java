@@ -1,3 +1,4 @@
+/*
 package com.example.demo.fileupload.service;
 
 import com.example.demo.fileupload.cosmos.dto.Details;
@@ -50,3 +51,4 @@ public class FileMetadataService {
 		);
 	}
 }
+*/

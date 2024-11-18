@@ -1,3 +1,4 @@
+/*
 package com.example.demo.fileupload.service;
 
 import com.azure.storage.blob.BlobContainerClient;
@@ -12,9 +13,11 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+*/
 /**
  * ServiceClient-> ContainerClient -> Blob files
- */
+ *//*
+
 @Service
 public class BlobStorageService {
 
@@ -23,12 +26,14 @@ public class BlobStorageService {
 	@Value("${azure.storage.container-name}")
 	private String containerName;
 
-	/*private BlobContainerClient getBlobContainerClient() {
+	*/
+/*private BlobContainerClient getBlobContainerClient() {
 	   return new BlobClientBuilder()
 			   .connectionString(connectionString)
 			   .containerName(containerName)
 			   .buildClient().getContainerClient();
-   }*/
+   }*//*
+
 	private BlobContainerClient getBlobContainerClient( ) {
 		// Create a BlobServiceClient to interact with the service
 		BlobServiceClient blobServiceClient = new BlobServiceClientBuilder()
@@ -64,3 +69,4 @@ public class BlobStorageService {
 		return filenames;
 	}
 }
+*/

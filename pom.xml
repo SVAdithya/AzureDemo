@@ -76,6 +76,11 @@
             <artifactId>azure-storage-blob</artifactId>
             <version>12.22.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>12.2.0.jre11</version>
+        </dependency>
     </dependencies>
 
     <build>

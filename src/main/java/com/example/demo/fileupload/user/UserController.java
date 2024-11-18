@@ -26,7 +26,7 @@ public class UserController {
 	}
 
 	@PostMapping("/v1/login")
-	public String postLoginV1(@RequestBody LoginRequest loginRequest) throws AuthenticationException {
+	public String postLoginV1WithUsernameAndPassword(@RequestBody LoginRequest loginRequest) throws AuthenticationException {
 		String msg = userService.loginRequest(
 				loginRequest.getUsername(),
 				loginRequest.getPassword()

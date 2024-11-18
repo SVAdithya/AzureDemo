@@ -7,6 +7,7 @@ import lombok.*;
 @Getter
 @Setter
 @Entity
+@Table(name = "[user]", schema = "dbo") // Escape the reserved keyword 'user'
 @AllArgsConstructor
 @NoArgsConstructor
 public class User{
